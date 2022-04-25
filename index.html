@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skytours</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="css/styles.css">
+    
+  </head>
+<body>
+    <!--Header Section-->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+    
+        <a href="#" class="logo">
+            <img src="images/footer-logo.png" class="logo-image" alt="">
+        </a>
+    
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+    
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!-- header section ends -->
+
+    <!--Login form container-->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+    
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    
+    </div>
+    <!--Home Section Starts-->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="video-btn active" data-src="images/Nature video.mp4"></span>
+            <span class="video-btn" data-src="images/Beach-side.mp4"></span>
+            <span class="video-btn" data-src="images/Mountain-roads.mp4"></span>
+            <span class="video-btn" data-src="images/Eiffel-tower.mp4"></span>
+            <span class="video-btn" data-src="images/beach-walk.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/Nature video.mp4" id="video-slider" loop autoplay muted></video>
+           
+        </div>
+        </section>
+        <!-- Home section ends-->
+        
+        <!--Book Section starts-->
+        <section class="book" id="book">
+
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+        
+            <div class="row">
+        
+                <div class="image">
+                    <img src="images/book-img.svg" alt="">
+                </div>
+        
+                <form action="">
+                    <div class="inputBox">
+                        <h3>where to</h3>
+                        <input type="text" placeholder="place name">
+                    </div>
+                    <div class="inputBox">
+                        <h3>how many</h3>
+                        <input type="number" placeholder="number of guests">
+                    </div>
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date">
+                    </div>
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date">
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+        
+            </div>
+        
+        </section>
+        
+        <!-- book section ends -->
+
+        <!--Package section starts-->
+        <section class="packages" id="packages">
+            <h1 class="heading">
+                <span>p</span>
+                <span>a</span>
+                <span>c</span>
+                <span>k</span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/Gateway-of-India-1.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt" id="search-btn"></i>Mumbai</h3>
+                        <p>Mumbai, previously known as Bombay is one of the most populous and biggest cities of Maharashtra. Also the biggest metropolis of this state, Mumbai is also popular as the entertainment and financial capital. It is the largest city of India and fondly called as the city of dreams. It is a place filled with dreamers and people who work hard day and night to achieve their dreams. From struggling actors, laboureres, Bollywood stars to gangsters, Mumbai has a lot.</p>
+                        <div class="stars">
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="far fa-star" id="search-btn"></i>
+                         </div>
+                         <div class="price">$90.00 <span>$120.00</span></div>
+                         <a href="#" class="btn">Book Now</a>
+                    
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/Sydney_Australia._(21339175489).jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt" id="search-btn"></i>Sydney</h3>
+                        <p>Sydney is its vibrant capital and the largest city in Australia. Marvel at the iconic Sydney Opera House and Sydney Harbour Bridge, catch the ferry to Manly, have a swim at Bondi Beach and stroll through the historic Rocks district.</p>
+                        <div class="stars">
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="far fa-star" id="search-btn"></i>
+                         </div>
+                         <div class="price">$129.00 <span>$429.00</span></div>
+                         <a href="#" class="btn">Book Now</a>
+                    
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/depositphotos_24406863-stock-photo-snorkeling-bay-in-oahuhawaii.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt" id="search-btn"></i>Hawaii</h3>
+                        <p>From the hustle and bustle of Oahu to the romance of Maui and off-the-beaten-path pursuits on Lanai and Molokai, the Hawaiian Islands offer enough to see, do and feel to fill a lifetime’s worth of dreams. So where do you begin? Hawaii’s spectacular beaches and lush valleys offer endless outdoor experiences, including surfing, hiking, skydiving, helicopter tours, paddle sports, whale-watching and zip lining. You can also swim with manta rays at night, float down tunnels on old sugar plantations and walk a lunar landscape at Garden of the Gods. Choose your adventure and let the memories begin.</p>
+                        <div class="stars">
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="far fa-star" id="search-btn"></i>
+                         </div>
+                         <div class="price">$3000.00 <span>$3449.00</span></div>
+                         <a href="#" class="btn">Book Now</a>
+                    
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/hc-a-eu-france-paris-eiffel-tower.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt" id="search-btn"></i>Paris</h3>
+                        <p>Paris, capital of France, is one of the most important and influential cities in the world. In terms of tourism, Paris is the second most visited city in Europe after London. In this travel guide, you’ll find out about the city’s top attractions, as well as useful travel advice on how to get to Paris and how to save money whilst traveling.</p>
+                        <div class="stars">
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="far fa-star" id="search-btn"></i>
+                         </div>
+                         <div class="price">$3279.00 <span>$3488.00</span></div>
+                         <a href="#" class="btn">Book Now</a>
+                    
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/tokyo-sky.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt" id="search-btn"></i>Tokyo</h3>
+                        <p>Tokyo (東京, Tōkyō) is Japan's capital and the world's most populous metropolis. It is also one of Japan's 47 prefectures, consisting of 23 central city wards and multiple cities, towns and villages west of the city center. The Izu and Ogasawara Islands are also part of Tokyo.</p>
+                        <div class="stars">
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="far fa-star" id="search-btn"></i>
+                         </div>
+                         <div class="price">$983.00 <span>$1120.00</span></div>
+                         <a href="#" class="btn">Book Now</a>
+                    
+                    </div>
+
+                </div>
+               
+                
+                <div class="box">
+                    <img src="images/egypt-cairo-pyramids-of-giza.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt" id="search-btn"></i>Egypt</h3>
+                        <p>Egypt is the oldest tourist destination on earth. Ancient Greeks and Romans started the trend, coming to goggle at the cyclopean scale of the Pyramids and the Colossi of Thebes. During colonial times, Napoleon and the British looted Egypt’s treasures to fill their national museums, sparking off a trickle of Grand Tourists that eventually became a flood of travellers, taken on Nile cruises and Egyptological lectures by the enterprising Thomas Cook.</p>
+                        <div class="stars">
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="fas fa-star" id="search-btn"></i>
+                            <i class="far fa-star" id="search-btn"></i>
+                         </div>
+                         <div class="price">$1568.00 <span>$1784.00</span></div>
+                         <a href="#" class="btn">Book Now</a>
+                    
+                    </div>
+
+                </div>
+            </div>
+        
+
+        </section>
+        <!--Package section ends-->
+
+        <!-- Services section starts-->
+        <section class="services" id="services">
+            <h1 class="heading">
+                <span>s</span>
+                <span>e</span>
+                <span>r</span>
+                <span>v</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Affordable hotels</h3>
+                    <p>We provide the best deals on booking of hotels.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food and drinks</h3>
+                    <p>Also there are great discounts on foods and drinks. You will get the breakfast for first day for free.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Safety Guide</h3>
+                    <ul>
+                        <li>Research the safety of your intended destination with the Department of Foreign Affairs and Trade.</li>
+                        <li>For up-to-date information on 'safe' and 'unsafe' areas of the city, consult with your hotel manager or local tourist information officer.</li>
+                        <li>Try to blend in with the locals and avoid looking or acting like a tourist.</li>
+                        <li>If you are mugged, don't fight back. It is better to lose a few dollars and a wristwatch than get injured.</li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>Around the world</h3>
+                    <p>We provide all sort of tour-packages. You can travel all around the world with us.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>Fastest Travel</h3>
+                    <p>You can also book flight tickets from our website.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventures</h3>
+                    <p>We also provide a great experience of adventure activities like ziplining, mountain-climbing and many many more activities.</p>
+                </div>
+            </div>
+        </section>
+        <!--Service section ends-->
+
+        <!--Gallery section starts-->
+        <section class="gallery" id="gallery">
+
+            <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span>e</span>
+                <span>r</span>
+                <span>y</span>
+            </h1>
+        
+            <div class="box-container">
+        
+                <div class="box">
+                    <a href="images/g-1.jpg" class="big"><img src="images/g-1.jpg" alt=""></a>
+                </div>
+                <div class="box">
+                    <a href="images/g-2.jpg" class="big"><img src="images/g-2.jpg" alt=""></a>
+                </div>
+                <div class="box">
+                    <a href="images/g-3.jpg" class="big"><img src="images/g-3.jpg" alt=""></a>
+                </div>
+                <div class="box">
+                    <a href="images/g-4.jpg" class="big"><img src="images/g-4.jpg" alt=""></a>   
+                </div>
+                <div class="box">
+                    <a href="images/g-5.jpg" class="big"><img src="images/g-5.jpg" alt=""></a>
+                </div>
+                <div class="box">
+                    <a href="images/g-6.jpg" class="big"><img src="images/g-6.jpg" alt=""></a>
+                </div>
+                <div class="box">
+                    <a href="images/g-7.jpg" class="big"><img src="images/g-7.jpg" alt=""></a>
+                </div>
+                <div class="box">
+                    <a href="images/g-8.jpg" class="big"><img src="images/g-8.jpg" alt=""></a>
+                 </div>
+                <div class="box">
+                    <a href="images/g-9.jpg" class="big"><img src="images/g-9.jpg" alt=""></a>
+                </div>
+        
+            </div>
+        
+        </section>
+        
+
+        <!--Gallery section ends-->
+
+        <!--Review section starts-->
+
+        <section class="review" id="review">
+
+            <h1 class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+            </h1>
+        
+            <div class="swiper-container review-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/pic1.png" alt="">
+                            <h3>Sarah</h3>
+                            <p>We had a wonderful few days away at Crown Metropol. Skytours were brilliant and managed the whole thing. I couldn't believe how easy it was. Thank you, we will book again.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/pic2.png" alt="">
+                            <h3>John deo</h3>
+                            <p>So impressed with the service. I really mucked the staff around with this booking but they were considerate and patient and sorted me out! Yes, I will use you again and have recommended TOL to others. Great deals, great staff.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/pic3.png" alt="">
+                            <h3>Linda Summers</h3>
+                            <p>I would book again because you have great deals and I have recommended travel online to everyone I know</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/pic4.png" alt="">
+                            <h3>Brian Curtis</h3>
+                            <p>This is the third time we have booked our family Xmas at Crown Towers Perth with Skytours.The experience has always been trouble free,and professionally handled.Thank you to Lisa.We will be booking again for next year as soon as bookings are available.My wife and I have two adult children,partners and grandchildren and we all loved it.Will become a family tradition with no shopping,cooking etc,just relax and enjoy.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+
+        <!--Review section ends-->
+
+        <!--Contact section starts-->
+
+        <section class="contact" id="contact">
+            <h1 class="heading">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+            </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/contact-img.svg" alt="">
+                </div>
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="name">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="number">
+                        <input type="text" placeholder="subject">
+                    </div>
+                    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="send message">
+                </form>
+            </div>
+        
+
+        </section>
+
+        <!--Contact section ends-->
+
+        <!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+    <!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>At Sky-tours.com we're like a fast, shiny speedboat in a sea of slow, rusty freighters.We run circles around our competitors by providing personalized service, an easy-to-use booking engine, and some of the lowest fares you'll find anywhere. The problem with GIANT online travel agencies is that they're slow, inflexible, and impersonal. As a smaller agency, we give you the kind of personalized service that our competitors simply can't match. You'll also get expert travel advice and super-low fares (At the MEGA agencies, you're just a number. But, here at Sky-tours, you're our customer first and foremost!). Our aim is to have the best possible customer experience period! We want to exceed your expectations so you'll not only use us again, but you'll also tell your friends, family, and co-workers about us too.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+    
+   
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".review-slider", {
+    spaceBetween: 20,
+    loop:true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+    },
+});
+var swiper = new Swiper(".brand-slider", {
+    spaceBetween: 20,
+    loop:true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        450: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        991: {
+          slidesPerView: 4,
+        },
+        1200: {
+          slidesPerView: 5,
+        },
+      },
+});
+
+      </script>
+    
+</body>
+</html>
